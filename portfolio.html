@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .header, .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .about, .portfolio, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #e8491d;
+            padding-bottom: 10px;
+        }
+        .portfolio-item {
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #fff;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact input, .contact textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact button {
+            padding: 10px;
+            border: none;
+            background-color: #e8491d;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Моето Портфолио</h1>
+    </div>
+    <div class="container">
+        <section class="about">
+            <h2>За мен</h2>
+            <p>Тук ще намерите информация за моите професионални умения, опит и проекти. Старая се да предлагам качествени и иновативни решения в моята работа.</p>
+        </section>
+        <section class="portfolio">
+            <h2>Портфолио</h2>
+            <div class="portfolio-item">
+                <h3>Проект 1</h3>
+                <p>Описание на първия проект. Какво е било направено, използвани технологии и резултати.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Проект 2</h3>
+                <p>Описание на втория проект. Какво е било направено, използвани технологии и резултати.</p>
+            </div>
+            <!-- Добавете още проекти при нужда -->
+        </section>
+        <section class="contact">
+            <h2>Контакт</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Вашето име" required>
+                <input type="email" name="email" placeholder="Вашият имейл" required>
+                <textarea name="message" rows="5" placeholder="Вашето съобщение" required></textarea>
+                <button type="submit">Изпрати</button>
+            </form>
+        </section>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Моето Портфолио. Всички права запазени.</p>
+    </div>
+</body>
+</html>
